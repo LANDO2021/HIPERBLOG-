@@ -13,7 +13,7 @@ body
     padding: 1em;
     text-align: left;
     border: 1px solid #DDD;
-    margin: 0 AUTO;
+    margin: 0 auto;
 }
 
 #cabecera
@@ -27,7 +27,7 @@ body
 }
 #cabecera #tagline
 {
-    padding: 1em 0 0 0;
+    padding: 1em 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
 }
