@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body
 {
     color: #333;
@@ -6,10 +12,12 @@ body
     font-size: 18px;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 #container
 {
-    width: 30%;
+    width: 70%;
+    height: 100%;
     padding: 1em;
     text-align: left;
     border: 1px solid #DDD;
@@ -23,16 +31,33 @@ body
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    margin-bottom: 2%;
+    padding: 1em;
+    display: flex;
+    height: 10%;
+    justify-content: start;
+    align-items: baseline;
 }
-#cabecera #tagline
-{
-    padding: 1em 0 0 0 1em;
-    font-weight: normal;
-    font-size: 0.8em;
+#cabecera h1 {
+    font-size: 3em;
 }
 
-#container h1
+#cabecera #tagline
 {
-    font-size: 20px;
+    padding: 0 1em;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+#post {
+    height: 50%;
+    width: 80%;
+}
+#post h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+#post p {
+    font-size: 1.5em;
+    color: darkblue;
 }
